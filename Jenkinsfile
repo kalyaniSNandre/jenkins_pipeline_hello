@@ -15,9 +15,9 @@ node {
     stage('deploy to qa'){
         echo "deploying"
     }
-    node {
+   
     stage('buildtest'){
         echo "buildingtest"
-    }
+    
 }
 }
